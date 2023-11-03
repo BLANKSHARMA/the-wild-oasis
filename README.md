@@ -6,6 +6,11 @@ Preview- https://the-wild-oasis-hotel-tool.netlify.app
 
 ---
 
+## Login
+
+- Email- test@test.com
+- password - Test@123
+
 ## Description
 
 This project is a Hotel Management System that provides a user-friendly interface for hotel employees to manage cabin rentals, bookings, guest information, and important statistics, ensuring a seamless experience for both the staff and guests.
