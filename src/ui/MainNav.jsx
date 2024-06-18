@@ -1,13 +1,13 @@
-import { NavLink } from 'react-router-dom';
-import styled from 'styled-components';
+import { NavLink } from "react-router-dom";
+import styled from "styled-components";
 import {
   HiOutlineCalendarDays,
   HiOutlineCog6Tooth,
   HiOutlineHome,
   HiOutlineHomeModern,
   HiOutlineUsers,
-} from 'react-icons/hi2';
-import MainNav from '../data/Uploader'
+} from "react-icons/hi2";
+import Uploader from "../data/Uploader";
 
 const NavList = styled.ul`
   display: flex;
@@ -59,40 +59,39 @@ function MainNav() {
     <nav>
       <NavList>
         <li>
-          <StyledNavLink to='/dashboard' draggable={false}>
+          <StyledNavLink to="/dashboard" draggable={false}>
             <HiOutlineHome />
             <span>Home</span>
           </StyledNavLink>
         </li>
         <li>
-          <StyledNavLink to='/bookings' draggable={false}>
+          <StyledNavLink to="/bookings" draggable={false}>
             <HiOutlineCalendarDays />
             <span>Bookings</span>
           </StyledNavLink>
         </li>
         <li>
-          <StyledNavLink to='/cabins' draggable={false}>
+          <StyledNavLink to="/cabins" draggable={false}>
             <HiOutlineHomeModern />
             <span>Cabins</span>
           </StyledNavLink>
         </li>
         <li>
-          <StyledNavLink to='/users' draggable={false}>
+          <StyledNavLink to="/users" draggable={false}>
             <HiOutlineUsers />
             <span>Users</span>
           </StyledNavLink>
         </li>
         <li>
-          <StyledNavLink to='/settings' draggable={false}>
+          <StyledNavLink to="/settings" draggable={false}>
             <HiOutlineCog6Tooth />
             <span>Settings</span>
           </StyledNavLink>
         </li>
-      </NavList>
         <li>
-    </Uploader>
-            <span>Uploader</span>
-          
+          <Uploader />
+
+          <span>Uploader</span>
         </li>
       </NavList>
     </nav>
